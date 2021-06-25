@@ -1,0 +1,12 @@
+@import './index.scss';
+.venda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    margin-bottom: 50px
+}
+.btn{
+    @include green;
+}
